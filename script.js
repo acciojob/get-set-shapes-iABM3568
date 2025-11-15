@@ -22,7 +22,7 @@ class Rectangle {
   }
 }
 
-class Square extends Animal {
+class Square extends Rectangle {
 	constructor(side) {
     // Call parent Rectangle constructor with side for both width and height
     super(side, side);
